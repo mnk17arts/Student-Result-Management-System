@@ -1,0 +1,388 @@
+.form-label {
+  font-weight: bold !important;
+}
+
+.home-body {
+  background-color: #252525d2;
+}
+
+.home-body .heading {
+  color: #fff;
+  text-align: center;
+  background-color: #252525;
+  background-image: -webkit-gradient(linear, right top, left top, from(#222222d3), color-stop(#252525bd), to(#333333c7)), url("../img/college.jpg");
+  background-image: linear-gradient(to left, #222222d3, #252525bd, #333333c7), url("../img/college.jpg");
+  background-size: cover;
+}
+
+.home-body .heading h5 {
+  color: #aaa;
+}
+
+.home-body .heading p {
+  color: #ccc;
+}
+
+.home-body .body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-height: 70vh;
+  padding-bottom: 100px !important;
+}
+
+.home-body .body .box {
+  width: 240px;
+  padding: 25px;
+  margin: 5px;
+  border-radius: 25px;
+  background-color: #944b4b;
+  border: 10px solid #946868;
+}
+
+.home-body .body .box img {
+  width: 100%;
+}
+
+.home-body .body .box .btn {
+  width: 100%;
+}
+
+.home-body .container-fluid {
+  text-align: center;
+  color: #fff;
+}
+
+.admin-body {
+  background-color: #ff8800d2;
+}
+
+.admin-body .heading {
+  color: #fff;
+  text-align: center;
+  background-color: #252525;
+  background-image: -webkit-gradient(linear, right top, left top, from(#222222d3), color-stop(#252525bd), to(#333333c7)), url("../img/college.jpg");
+  background-image: linear-gradient(to left, #222222d3, #252525bd, #333333c7), url("../img/college.jpg");
+  background-size: cover;
+}
+
+.admin-body .heading h5 {
+  color: #aaa;
+}
+
+.admin-body .heading p {
+  color: #ccc;
+}
+
+.admin-body .container-fluid .body {
+  min-height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.admin-body .container-fluid .body .leftframe {
+  width: 250px;
+  background-color: #ff8800;
+}
+
+.admin-body .container-fluid .body .leftframe ul {
+  padding-top: 10px;
+}
+
+.admin-body .container-fluid .body .leftframe li {
+  padding: 10px 0px !important;
+  list-style: none;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.admin-body .container-fluid .body .leftframe li a {
+  padding: 5px;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: #faf9f88a;
+  cursor: pointer;
+  color: #000;
+}
+
+.admin-body .container-fluid .body .leftframe li a:hover {
+  background-color: green;
+  color: #fff;
+}
+
+.admin-body .container-fluid .body .leftframe li a:active {
+  background-color: #0f0;
+  color: #fff;
+}
+
+.admin-body .container-fluid .body .rightframe .righttop {
+  background-color: #ff5e00;
+  height: 50px;
+}
+
+.admin-body .container-fluid .body .rightframe .rightbot .dataTables_wrapper {
+  background-color: #f7d9b8d2;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.admin-body .container-fluid .body .rightframe .rightbot .dataTables_length, .admin-body .container-fluid .body .rightframe .rightbot .dataTables_filter {
+  background-color: #ff8800;
+  color: #fff !important;
+  /* padding: 5px; */
+}
+
+.admin-body .container-fluid .body .rightframe .rightbot .dataTables_info {
+  color: #666;
+}
+
+.admin-body .container-fluid .body .rightframe .rightbot thead {
+  background-color: #ff8800 !important;
+}
+
+.admin-body .container-fluid .body .rightframe .rightbot #myTable_paginate a {
+  padding: 2.5px 5px;
+  background-color: #222;
+  margin-left: 2.5px;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-body .container-fluid .body .rightframe .rightbot #myTable_paginate a.disabled {
+  color: #444;
+  cursor: not-allowed;
+}
+
+.admin-body .viewdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.admin-body .viewdiv .view-header {
+  text-align: center;
+  color: #00f;
+}
+
+.admin-body .viewdiv .view-body .bodyup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.admin-body .viewdiv .view-body .bodyup .bodyupleft {
+  padding-top: 5px;
+  background-color: #222;
+}
+
+.admin-body .viewdiv .view-body .bodyup .bodyupleft img {
+  width: 150px;
+  height: 150px;
+}
+
+.admin-body .viewdiv .view-body .bodyup .bodyupleft label {
+  color: #00ccff;
+  font-family: cursive;
+  padding: 5px;
+  text-align: center;
+}
+
+.admin-body .viewdiv .view-body .bodyup .bodyupright {
+  color: #2e0b0b;
+  text-transform: uppercase;
+  background-color: #4444;
+  width: 100%;
+  padding-left: 50px;
+}
+
+.admin-body .viewdiv .view-body .bodydown {
+  background-color: #4444;
+}
+
+.admin-body .viewdiv .view-body .bodydown table, .admin-body .viewdiv .view-body .bodydown th, .admin-body .viewdiv .view-body .bodydown td {
+  border: 1px solid #00f;
+}
+
+.admin-body .viewdiv .view-body .bodydown th, .admin-body .viewdiv .view-body .bodydown td {
+  text-align: center;
+  padding: 5px;
+}
+
+.admin-body .viewdiv .view-body .bodydown button.edit:hover {
+  background-color: #f07b72;
+}
+
+.student-body {
+  background-color: #51ff00a1;
+}
+
+.student-body .heading {
+  color: #fff;
+  text-align: center;
+  background-color: #252525;
+  background-image: -webkit-gradient(linear, right top, left top, from(#222222d3), color-stop(#252525bd), to(#333333c7)), url("../img/college.jpg");
+  background-image: linear-gradient(to left, #222222d3, #252525bd, #333333c7), url("../img/college.jpg");
+  background-size: cover;
+}
+
+.student-body .heading h5 {
+  color: #aaa;
+}
+
+.student-body .heading p {
+  color: #ccc;
+}
+
+.student-body .container-fluid .body {
+  min-height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.student-body .container-fluid .body .leftframe {
+  width: 250px;
+  background-color: #1b9417;
+}
+
+.student-body .container-fluid .body .leftframe ul {
+  padding-top: 10px;
+}
+
+.student-body .container-fluid .body .leftframe li {
+  padding: 10px 0px !important;
+  list-style: none;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.student-body .container-fluid .body .leftframe li a {
+  padding: 5px;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: #f5b87a8a;
+  cursor: pointer;
+  color: #000;
+}
+
+.student-body .container-fluid .body .leftframe li a:hover {
+  background-color: #ff5e00;
+  color: #fff;
+}
+
+.student-body .container-fluid .body .leftframe li a:active {
+  background-color: #ff7b00;
+  color: #fff;
+}
+
+.student-body .container-fluid .body .rightframe .righttop {
+  background-color: #257705;
+  height: 50px;
+}
+
+.student-body .container-fluid .body .rightframe .rightbot .btnss {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.student-body .viewdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.student-body .viewdiv .view-header {
+  text-align: center;
+  color: #00f;
+}
+
+.student-body .viewdiv .view-body .bodyup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.student-body .viewdiv .view-body .bodyup .bodyupleft {
+  padding-top: 5px;
+  background-color: #222;
+}
+
+.student-body .viewdiv .view-body .bodyup .bodyupleft img {
+  width: 150px;
+  height: 150px;
+}
+
+.student-body .viewdiv .view-body .bodyup .bodyupleft label {
+  color: #00ccff;
+  font-family: cursive;
+  padding: 5px;
+  text-align: center;
+}
+
+.student-body .viewdiv .view-body .bodyup .bodyupright {
+  color: #2e0b0b;
+  text-transform: uppercase;
+  background-color: #4444;
+  width: 100%;
+  padding-left: 50px;
+}
+
+.student-body .viewdiv .view-body .bodydown {
+  background-color: #4444;
+}
+
+.student-body .viewdiv .view-body .bodydown table, .student-body .viewdiv .view-body .bodydown th, .student-body .viewdiv .view-body .bodydown td {
+  border: 1px solid #00f;
+}
+
+.student-body .viewdiv .view-body .bodydown th, .student-body .viewdiv .view-body .bodydown td {
+  text-align: center;
+  padding: 5px;
+}
+
+.student-body .viewdiv .view-body .bodydown button.edit:hover {
+  background-color: #f07b72;
+}
+/*# sourceMappingURL=index.css.map */
