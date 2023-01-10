@@ -12,24 +12,29 @@
 > + Database : MySQL (XAMPP)
 > + Server : Apache (XAMPP)
 
--> The complex part of the project was intergrating login system with the database. I used PHP to connect the database with the login system. I used MySQL database to store the data. I used XAMPP to run the server and the database. I used Apache to run the server. I used PHPMyAdmin to manage the database.
++ The complex part of the project was intergrating login system with the database. I used PHP to connect the database with the login system. I used MySQL database to store the data. I used XAMPP to run the server and the database. I used Apache to run the server. I used PHPMyAdmin to manage the database.
 
--> The Home page of the project is the login page. Here the user can login using their credentials. If the user is a student then he/she will be redirected to the student portal. If the user is a faculty then he/she will be redirected to the faculty portal. If the user enters wrong credentials then he/she will be redirected to the login page again. The login system is created using PHP. The home page is shown as below.
+- The Home page of the project is the login page. Here the user can login using their credentials. If the user is a student then he/she will be redirected to the student portal. If the user is a faculty then he/she will be redirected to the faculty portal. If the user enters wrong credentials then he/she will be redirected to the login page again. The login system is created using PHP. The home page is shown as below.
 
-![Home Page]()
+![Home Page](https://github.com/mnk17arts/Student-Result-Management-System/blob/main/bits/img/ss0.png?raw=true)
 
--> The faculty portal in this project is shown as below.
+- The faculty portal in this project is shown as below.
 
-![]()
+![Faculty Portal](https://github.com/mnk17arts/Student-Result-Management-System/blob/main/bits/img/ss2.png?raw=true)
 
--> The student portal in this project is shown as below.
+- The student portal in this project is shown as below.
 
-![]()
+![Student Portal](https://github.com/mnk17arts/Student-Result-Management-System/blob/main/bits/img/ss1.png?raw=true)
 
 
--> Working video of this project is given below:
-![]()
+- Working video of this project is given below:
 
--> The full code of this project is available at the Github repository. You can download the code from there. The link to the Github repository is given below.
 
-![Github Repository Link]()
+
+https://user-images.githubusercontent.com/71878747/211599480-31538bf5-184e-42fb-8507-bfa524427735.mp4
+
+
+
+- The full code of this project is available at the Github repository. You can download the code from there. The link to the Github repository is given below.
+
+[Github Repository Link](https://github.com/mnk17arts/Student-Result-Management-System)
